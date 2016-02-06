@@ -2,22 +2,17 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Recent Posts</h1>
-  
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class = "col-sm-4 img-container">
+    
+    <img src="img/rahvar.jpg">
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class = "col-sm-8">
+        <p class = "intro" >Hi, I'm Rahul Varma </p>
+        <br />
+        <p class = "info">I am a Web Developer, Python enthusiast and I am also interested in Machine Learning and Data Analytics. I am currently a final year Computer Sciene undergraduate student at BITS Pilani - Dubai Campus. </p>
+
 
 </div>

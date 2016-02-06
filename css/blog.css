@@ -1,0 +1,43 @@
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+@media(min-width: 768px){
+.img-container{
+    padding-left: 0px;
+    padding-right: 0px
+}
+}
+
+@media(max-width: 767px){
+    .img-container{
+        margin-bottom: 20px;
+    }
+}
+body{
+ 
+    color : #333333;
+}
+
+.intro{
+    font-size: 28px;
+}
+
+header{
+    font-family: 'Montserrat', serif;
+}
+
+.info{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.header{
+    margin-top: 20px;
+}
+
+a.site-title:hover {
+    text-decoration: none;
+    color: #0088cc;
+}
+
